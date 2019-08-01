@@ -1,0 +1,100 @@
+.card {
+    .card-title {
+        &.hidden {
+            text-indent: -9999px;
+        }
+    }
+    .card-image {
+        .card-badge {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            text-align: left;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            padding: 0.2em 24px 0.8em 24px;
+            color: #fff;
+            z-index: 2;
+            .material-icons {
+                position: relative;
+                margin-right: 8px;
+                top: 7px;
+            }
+            +.card-title {
+                padding-bottom: 66px;
+            }
+        }
+    }
+    &.horizontal {
+        .card-image {
+            .card-badge {
+                text-align: center;
+                padding: 0.2em 0;
+                .material-icons {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+div .card-action a {
+    display: inline-block;
+    transition: .3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div .card-action a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background: rgb(231, 16, 16);
+    color: #fff;
+}
+
+
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+h1,
+h2,
+h3 {
+    font-family: 'Laila', serif;
+}
+
+h4,
+p,
+a {
+    font-family: 'Marcellus', serif !important;
+}
+
+i.material-icons {
+    color: red;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+
+/* footer ( bottom: 0;
+            width: 100%;
+            height: 4rem;
+            ) */
+
+@media screen and (max-width: 320px) {
+    nav .brand-logo {
+        font-size: 1.5rem !important;
+    }
+}

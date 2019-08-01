@@ -1,0 +1,57 @@
+H1   {
+	color:#002080;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size=24;
+}
+H2   {
+	color:#002080;
+	font-weight:bold;
+	font-family: Verdana;
+	font-size=20;
+}
+H3   {
+	color:#002080;
+	font-weight:bold;
+	font-family: Verdana;
+	font-size=18;
+	font-style:italic;
+} 
+P    {
+	color:black;
+	font-weight:normal;
+	font-family: Verdana;
+}
+Body {
+	color:black;
+	font-weight: normal;
+	font-family: Verdana;
+}
+LI   {font-style:italic;}
+EM   {font-style:italic; font-weight:bold;}
+
+A:link          {
+	font-style:normal;
+	font-weight:normal;
+	color: #FF0000;
+	text-decoration: underline;
+}
+            
+A:visited       {
+	font-style:normal;
+	font-weight:normal;
+	color:#5050aa;
+	text-decoration: underline;
+}
+A:active	      {
+	font-style:normal;
+	font-weight:normal;
+	color:#90aaaa;
+	text-decoration: underline;
+}
+a:hover      {
+	font-style:normal;
+	font-weight:normal;
+	color: #90aaaa;
+	text-decoration: underline;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	background-color: #EBE9DA;
+	margin-left: 53px;
+	vertical-align: 14pt;
+	line-height: 18pt;
+	margin-top: 53px;
+	margin-right: 53px;
+	margin-bottom: 53px;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	color: #000000;
+	vertical-align: 14pt;
+	font-size: .8em;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+.photo_head {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #666666;
+	width: 150px;
+}
+a:link {
+	color: #0066FF;
+}
+a:visited {
+	color: #999999;
+}
+a:hover {
+	color: #CCCCCC;
+}
+a:active {
+	color: #FF0000;
+	float: none;
+}.nav_bar {
+	float: left;
+	width: 200px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	color: #666666;
+	font-weight: bold;
+	font-size: 10px;
+}
+.welcome {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #009933;
+}
+.mainCopy {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	float: none;
+	line-height: 18pt;
+}
+.photo_sub {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	float: left;
+	width: 150px;
+}
+.photo {
+	float: left;
+	padding-right: 15px;
+}
+.copyright {
+	font-size: 10px;
+	bottom: auto;
+	width: 750px;
+}
+.linksCopy {
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+

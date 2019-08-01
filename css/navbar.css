@@ -1,0 +1,42 @@
+*{
+margin: 0;
+}
+
+/* Navigation Bar Itself*/
+
+nav{
+text-align: center;
+width: 65%;
+margin: 0 auto;
+background-color: black;
+padding: 6px;
+border-radius: 0 0 50px 50px;
+}
+
+/* Navigation Bar List Items*/
+
+nav li{
+list-style: none;
+display: inline-block;
+font-size: 1.2em;
+margin: 1px 12px;
+}
+
+/* Navigation Bar Unordered List*/
+
+nav ul{
+padding-left: 0;
+}
+
+/* Navigation Bar Links */
+
+nav a{
+text-decoration: none;
+color: white;
+}
+
+/* Navigation Bar Elements with the .selected class and when you hover over the list items*/
+
+.selected, nav a:hover{
+color: #F7FE2E;
+}

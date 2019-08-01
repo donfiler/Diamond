@@ -1,0 +1,37 @@
+/* CSS Document */
+
+body {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #eee;
+	font-family: 'Expletus Sans', cursive;
+	font-weight: normal;
+	padding: 4px;
+	line-height: 1.75;
+}
+	h1{font-family: 'Expletus Sans', cursive;}
+	h2{font-family: 'Expletus Sans', cursive;}
+	h3{font-family: 'Alegreya Sans', sans-serif;}
+	h43{font-family: 'Alegreya Sans', sans-serif;}
+h4 {
+ 	margin-top: 25px;
+}
+.row {
+ 	margin-bottom: 20px;
+}
+.row .row {
+	  margin-top: 10px;
+	  margin-bottom: 0;
+}
+[class*="col-"] {
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  background-color: #eee;
+
+}
+hr {
+ 	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+

@@ -1,0 +1,168 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#header {
+	position: absolute;
+	width: 830px;
+	left: 150px;
+	top: -3px;
+	height: 75px;
+}
+
+div#banner {
+	background-color: #006666;
+	background-image: url(../images/bgtile.jpg);
+	background-repeat: repeat-x;
+	height: 75px;
+	margin: 0 auto 0 auto;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+img#titletext {
+	top: -105px;
+	position: absolute;
+	left: 293px;
+}
+
+div#nav{
+	color : #105BAC;
+	background-color : #efefef;
+	height : 20px;
+	font-size: 80%;
+	border-top : 1px solid #105BAC;
+}
+
+div#nav ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 56px;
+	margin-right: 0px;
+	padding: 2px 0 0 0;
+}
+div#nav ul li {
+	display: inline;
+}
+div#content {
+	position: absolute;
+	left: 394px;
+	top: 134px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+	line-height: 140%;
+	width: 587px;
+	height: 750px;
+	background-color: #FFFFFF;
+}
+div#sidebar {
+	top: 133px;
+	width: 222px;
+	font-size : 70%;
+	margin-left: 50px;
+	position: absolute;
+	left: 99px;
+	background-color: #009999;
+}
+div#content h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 146%;
+	color: #105BAC;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+div#content h2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #105BAC;
+	font-weight: normal;
+	font-size: 120%;
+}
+div#sidebar div.feature {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color : #666666;
+	background-color : #fefefe;
+	border : 1px solid #efefef;
+	margin-bottom : 11px;
+	padding : 10px;
+	line-height : 140%;
+}
+
+div#sidebar div.feature ul{
+	margin : 0;
+	padding : 0;
+	line-height : 180%;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+div#sidebar div.feature ul li{
+	color : #06D3FF;
+	background-color : transparent;
+}
+
+div#sidebar div.feature ul li a{
+	color : #115EAC;
+	background-color : transparent;
+	text-decoration : none;
+}
+
+div#sidebar div.feature ul li a:hover{
+	text-decoration : underline;
+}
+
+form#loginform input{
+	color : #123466;
+	background-color : #fff;
+	width : 116px;
+	border : 1px solid #ddd;
+}
+
+form#loginform input.submit{
+	width : 60px;
+	border : 1px solid #123466;
+	color : #123466;
+	background-color : #ddd;
+}
+
+form#loginform, form#loginform table, form#loginform tr, form#loginform td{
+	margin : 0;
+	padding : 0;
+}
+
+form#loginform table th{
+	font-family : Geneva, Arial, Helvetica, sans-serif;
+	color : #115EAC;
+	background-color : #fefefe;
+	font-size : 11px;
+	text-align : left;
+	margin : 0;
+	padding : 0;
+}
+
+div#sidebar form{
+	padding : 0;
+	margin : 0;
+}
+
+div#sidebar h1{
+	font-size : 110%;
+	margin : 0;
+	padding : 0;
+	color: #115EAC;
+}
+
+div#nav li a{
+	color : #105BAC;
+	background-color : #efefef;
+	text-decoration : none;
+	
+}
+
+div#nav li a:hover{
+	color : #105BAC;
+	background-color : #fff;
+	border-bottom : 4px solid #06D3FF;
+}
